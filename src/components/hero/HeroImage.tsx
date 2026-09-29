@@ -1,5 +1,5 @@
 import Image from "next/image";
-import StatCard from "./StatCard";
+import ContactCard from "./ContactCard";
 
 export interface HeroImageProps {
   src: string;
@@ -35,9 +35,15 @@ export default function HeroImage({ src, alt, caption, badge }: HeroImageProps) 
         </p>
       </div>
 
-      {/* floating stat card */}
+      {/* floating contact card */}
       <div className="absolute left-0 bottom-0 sm:-left-4">
-        <StatCard value="98.4%" label="Patient Recovery Goal Rate" badgeOne="NDIS Registered" badgeTwo="Serving Tarneit" />
+        <ContactCard
+          name="Rujal Jogani"
+          title="Senior Physiotherapist"
+          phone="0478582414"
+          serviceLabel="Home Visit Service"
+          serviceArea="Tarneit, Victoria 3029 and surrounding areas"
+        />
       </div>
     </div>
   );
