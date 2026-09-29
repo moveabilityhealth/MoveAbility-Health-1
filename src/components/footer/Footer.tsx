@@ -40,14 +40,6 @@ export default function Footer() {
                 </span>
               </span>
             </div>
-            <p className="text-xs md:text-sm text-white/70 leading-relaxed">
-              Tarneit&rsquo;s premier physiotherapy, rehabilitation, and NDIS
-              capacity-building clinic. Evidence-based care delivered by
-              accredited clinicians who value your lasting well-being.
-            </p>
-            <p className="text-xs md:text-sm text-primary font-medium">
-              NDIS Provider Registered • AHPRA Certified
-            </p>
           </div>
 
           <FooterColumn title="Contact Us">
@@ -64,7 +56,7 @@ export default function Footer() {
                   moveabilityhealth@gmail.com
                 </a>
               </li>
-              <li>Clinic: Tarneit, Victoria 3029, Australia</li>
+              <li>Service area: Tarneit, Victoria 3029, Australia</li>
             </ul>
           </FooterColumn>
 

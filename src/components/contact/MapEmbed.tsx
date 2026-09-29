@@ -20,10 +20,11 @@ export default function MapEmbed({
   return (
     <div className="h-full flex flex-col space-y-4 md:space-y-6">
       <div className="space-y-2 md:space-y-3">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">Visit Us</h2>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">Our Service Area</h2>
         <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-          Conveniently positioned in Tarneit with quick access from Truganina,
-          Hopper&rsquo;s Crossing, and Werribee. Easy pram and wheelchair accessibility.
+          We bring mobile physiotherapy directly to your door — proudly serving
+          Tarneit, Truganina, Hoppers Crossing, and Werribee, with visits
+          available all around Melbourne.
         </p>
       </div>
 
@@ -46,7 +47,7 @@ export default function MapEmbed({
               rel="noopener noreferrer"
               className="inline-flex items-center rounded-full bg-primary text-white text-[11px] md:text-xs font-semibold px-3 py-1.5 md:px-4 md:py-2 shadow-sm hover:bg-gradient-to-r hover:from-primary hover:to-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 transition-colors"
             >
-              Get Directions
+              View Area on Map
             </a>
             <span className="text-[11px] md:text-xs text-gray-500">{parkingNote}</span>
           </div>

@@ -11,9 +11,9 @@ export default function Contact() {
             mapTitle="Map showing MoveAbility Health location in Tarneit, Victoria"
             clinicName="MoveAbility Health Tarneit"
             address="Tarneit, Victoria 3029"
-            landmark="Near Tarneit Central & Riverdale Village"
+            landmark="Servicing Tarneit Central & Riverdale Village and surrounds, with home visits available across greater Melbourne."
             directionsUrl="https://www.google.com/maps/search/?api=1&query=Tarneit+Victoria+3029+Australia"
-            parkingNote="Free Parking On-Site"
+            parkingNote="We Come To You"
           />
           <ContactForm heading="Send Us An Enquiry" />
         </div>

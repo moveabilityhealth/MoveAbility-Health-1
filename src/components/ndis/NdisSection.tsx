@@ -7,12 +7,8 @@ const features: NdisFeatureCardProps[] = [
     description: "Tailored around specific participant life goals, mobility enhancement, and social engagement.",
   },
   {
-    title: "Clinic & Home Visits",
-    description: "Flexible appointment options at our modern Tarneit facility or in the comfort of your home.",
-  },
-  {
-    title: "Direct Billing & Clear Reports",
-    description: "Seamless claim processing with NDIA portal and detailed plan-review clinical reporting.",
+    title: "Home Visits & Flexible Appointments",
+    description: "Flexible appointment options at a time and place that suits you, in the comfort of your home.",
   },
   {
     title: "Neurological & Physical Care",
@@ -28,9 +24,9 @@ export default function NdisSection() {
           <NdisImageCard
             src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=900&q=80"
             alt="Clinician guiding a patient through a resistance-band exercise"
-            badge="NDIS Registered Clinic"
+            badge="NDIS Registered Provider"
             caption="Empowering Independence across Melbourne's West"
-            subCaption="Tarneit Clinic Consultations & Home Visits"
+            subCaption="Mobile Consultations & Home Visits"
           />
 
           <div className="space-y-4 md:space-y-6">
@@ -42,13 +38,13 @@ export default function NdisSection() {
               Dedicated NDIS Physiotherapy Services
             </h2>
             <p className="text-sm md:text-base text-white/70 leading-relaxed">
-              We are an NDIS registered provider delivering high-quality, goal-focused
+              We are delivering high-quality, goal-focused
               physiotherapy and capacity-building support. We partner closely with
-              self-managed, plan-managed, and NDIA-managed participants, support
-              coordinators, and families to foster true functional freedom.
+              participants, support coordinators, and families to foster true
+              functional freedom.
             </p>
 
-            <div className="grid sm:grid-cols-2 gap-3 md:gap-4 pt-2">
+            <div className="grid sm:grid-cols-2 gap-3 md:gap-4 pt-2 [&>*:last-child]:sm:col-span-2">
               {features.map((feature) => (
                 <NdisFeatureCard key={feature.title} {...feature} />
               ))}

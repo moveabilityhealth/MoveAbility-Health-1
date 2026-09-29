@@ -21,15 +21,8 @@ const differences: Omit<ClinicalDifferenceCardProps, "index">[] = [
     ),
   },
   {
-    title: "NDIS Registered Provider",
-    description: "Full compliance with quality and safeguarding benchmarks, with direct agency claim handling.",
-    icon: (
-      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3l7 3v5c0 4.5-3 8.25-7 9.5-4-1.25-7-5-7-9.5V6l7-3zM9.5 12l1.75 1.75L14.75 10" />
-    ),
-  },
-  {
-    title: "Modern Clinic & Home Visits",
-    description: "Flexibility to receive expert care in our premium Tarneit facility or directly at your residence.",
+    title: "Flexible Home Visits",
+    description: "Convenient, professional care delivered directly at your home or workplace across Tarneit and surrounding suburbs.",
     icon: (
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 11l9-7 9 7M5 10v9a1 1 0 001 1h4v-6h4v6h4a1 1 0 001-1v-9" />
     ),

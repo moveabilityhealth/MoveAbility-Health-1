@@ -3,7 +3,7 @@ import GalleryGrid, { type GalleryPhoto } from "./GalleryGrid";
 const photos: GalleryPhoto[] = [
   {
     src: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80",
-    alt: "Modern physiotherapy clinic treatment room",
+    alt: "Modern physiotherapy treatment room",
   },
   {
     src: "https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=800&q=80",
@@ -19,7 +19,7 @@ const photos: GalleryPhoto[] = [
   },
   {
     src: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?auto=format&fit=crop&w=800&q=80",
-    alt: "Clinic reception and waiting area",
+    alt: "Reception and waiting area",
   },
   {
     src: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80",
@@ -32,7 +32,7 @@ export default function Gallery() {
     <section id="gallery" className="scroll-mt-20 pt-5 md:pt-8 lg:pt-12 pb-5 md:pb-8 lg:pb-12 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="space-y-2 md:space-y-3 mb-8 md:mb-14">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">Clinic &amp; Treatment Gallery</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">Treatment Gallery</h2>
         </div>
 
         <GalleryGrid photos={photos} />

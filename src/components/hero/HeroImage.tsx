@@ -37,7 +37,7 @@ export default function HeroImage({ src, alt, caption, badge }: HeroImageProps) 
 
       {/* floating stat card */}
       <div className="absolute left-0 bottom-0 sm:-left-4">
-        <StatCard value="98.4%" label="Patient Recovery Goal Rate" badgeOne="NDIS Registered" badgeTwo="Tarneit Clinic" />
+        <StatCard value="98.4%" label="Patient Recovery Goal Rate" badgeOne="NDIS Registered" badgeTwo="Serving Tarneit" />
       </div>
     </div>
   );

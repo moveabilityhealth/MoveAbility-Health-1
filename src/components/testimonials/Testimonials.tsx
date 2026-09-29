@@ -44,7 +44,7 @@ export default function Testimonials() {
 
         <p className="text-center text-[11px] md:text-xs font-semibold tracking-wide text-gray-500 uppercase mt-8 md:mt-10 flex items-center justify-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-primary" aria-hidden="true" />
-          Rated 4.9 / 5.0 from independent verified clinic appointments
+          Rated 4.9 / 5.0 from independent verified client appointments
         </p>
       </div>
     </section>
