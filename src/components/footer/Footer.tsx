@@ -5,7 +5,6 @@ import FooterBottom, { type FooterLink } from "./FooterBottom";
 const bottomLinks: FooterLink[] = [
   { label: "Privacy Policy", href: "#" },
   { label: "Terms & Conditions", href: "#" },
-  { label: "NDIS Participant Rights", href: "#" },
 ];
 
 export default function Footer() {
@@ -56,7 +55,7 @@ export default function Footer() {
                   moveabilityhealth@gmail.com
                 </a>
               </li>
-              <li>Service area: Tarneit, Victoria 3029, Australia</li>
+              <li>Service area: All around Melbourne, Victoria, Australia</li>
             </ul>
           </FooterColumn>
 

@@ -7,12 +7,12 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-12">
           <MapEmbed
-            mapSrc="https://www.google.com/maps?q=Tarneit,+Victoria+3029,+Australia&output=embed"
-            mapTitle="Map showing MoveAbility Health location in Tarneit, Victoria"
+            mapSrc="https://www.google.com/maps?q=Melbourne,+Victoria,+Australia&output=embed"
+            mapTitle="Map showing MoveAbility Health service area across Melbourne, Victoria"
             clinicName="MoveAbility Health Tarneit"
-            address="Tarneit, Victoria 3029"
+            address="Melbourne, Victoria, Australia"
             landmark="Servicing Tarneit Central & Riverdale Village and surrounds, with home visits available across greater Melbourne."
-            directionsUrl="https://www.google.com/maps/search/?api=1&query=Tarneit+Victoria+3029+Australia"
+            directionsUrl="https://www.google.com/maps/search/?api=1&query=Melbourne+Victoria+Australia"
             parkingNote="We Come To You"
           />
           <ContactForm heading="Send Us An Enquiry" />

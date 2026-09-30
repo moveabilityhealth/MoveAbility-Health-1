@@ -4,7 +4,7 @@ import NdisFeatureCard, { type NdisFeatureCardProps } from "./NdisFeatureCard";
 const features: NdisFeatureCardProps[] = [
   {
     title: "Goal-Focused Treatment",
-    description: "Tailored around specific participant life goals, mobility enhancement, and social engagement.",
+    description: "Tailored around specific client life goals, mobility enhancement, and social engagement.",
   },
   {
     title: "Home Visits & Flexible Appointments",
@@ -24,24 +24,18 @@ export default function NdisSection() {
           <NdisImageCard
             src="https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=900&q=80"
             alt="Clinician guiding a patient through a resistance-band exercise"
-            badge="NDIS Registered Provider"
-            caption="Empowering Independence across Melbourne's West"
+            caption="Empowering Independence across Melbourne"
             subCaption="Mobile Consultations & Home Visits"
           />
 
           <div className="space-y-4 md:space-y-6">
-            <p className="text-xs md:text-sm font-bold tracking-widest text-primary uppercase flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-primary" aria-hidden="true" />
-              Registered Clinical Provider
-            </p>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-tight">
-              Dedicated NDIS Physiotherapy Services
+              Dedicated Mobile Physiotherapy Services
             </h2>
             <p className="text-sm md:text-base text-white/70 leading-relaxed">
-              We are delivering high-quality, goal-focused
-              physiotherapy and capacity-building support. We partner closely with
-              participants, support coordinators, and families to foster true
-              functional freedom.
+              We deliver high-quality, goal-focused physiotherapy and
+              capacity-building support. We partner closely with clients and
+              their families to foster true functional independence.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-3 md:gap-4 pt-2 [&>*:last-child]:sm:col-span-2">

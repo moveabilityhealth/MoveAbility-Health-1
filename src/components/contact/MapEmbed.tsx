@@ -23,8 +23,7 @@ export default function MapEmbed({
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">Our Service Area</h2>
         <p className="text-sm md:text-base text-gray-600 leading-relaxed">
           We bring mobile physiotherapy directly to your door — proudly serving
-          Tarneit, Truganina, Hoppers Crossing, and Werribee, with visits
-          available all around Melbourne.
+          clients all around Melbourne.
         </p>
       </div>
 
